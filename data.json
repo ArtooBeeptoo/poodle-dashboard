@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-18T19:45:00-06:00",
+  "lastUpdated": "2026-02-19T11:00:00-06:00",
   "partnerCalls": [
     {
       "partner": "Berkeley Payments",
       "contact": "James Dawe",
       "callDate": "2026-02-18",
       "status": "complete",
-      "notes": "Awaiting more info. Need to clarify monthly fee structure.",
-      "nextAction": "Send one-pager + user flow doc"
+      "notes": "Received follow-up email + PDF overview (Feb 19). Strong platform: 500+ clients, 10M+ accounts, $4B+ disbursed. Have Canadian youth program ('gold standard'). EQ Bank launched in 6mo, Ceridian in 12 weeks. Virtual cards <$1.",
+      "nextAction": "Send user flow document (parent + 10yo scenario)"
     },
     {
       "partner": "Cliq",
@@ -29,31 +29,31 @@
   "tasks": {
     "todo": [
       {
-        "id": 1,
-        "title": "Finalize one-pager design",
-        "description": "Get designer to create polished version from content brief",
-        "priority": "high",
-        "assignee": "Will"
-      },
-      {
         "id": 2,
         "title": "Draft user flow document",
-        "description": "Parent with 10-year-old scenario - James (Berkeley) requested",
+        "description": "Parent with 10-year-old scenario — James (Berkeley) requested",
         "priority": "high",
         "assignee": "Artoo"
       },
       {
         "id": 3,
         "title": "Clarify monthly fee structure",
-        "description": "Ask Berkeley & Cliq about per-card fees, suspension workarounds",
+        "description": "Ask Berkeley & Cliq about per-card fees, suspension workarounds, dormancy rules",
         "priority": "high",
         "assignee": "Will"
       },
       {
         "id": 4,
         "title": "Schedule Spidr call",
-        "description": "Ramy Serageldin - third BIN sponsor option",
+        "description": "Ramy Serageldin — third BIN sponsor option",
         "priority": "medium",
+        "assignee": "Will"
+      },
+      {
+        "id": 10,
+        "title": "Get Canadian youth program name",
+        "description": "Ask Berkeley for the name — use as reference/proof point",
+        "priority": "low",
         "assignee": "Will"
       },
       {
@@ -66,14 +66,20 @@
     ],
     "inProgress": [
       {
-        "id": 6,
-        "title": "Partner one-pager content",
-        "description": "Content brief created, sent to Will & Joe",
+        "id": 1,
+        "title": "Finalize one-pager design",
+        "description": "Get designer to create polished version from content brief",
         "priority": "high",
-        "assignee": "Artoo"
+        "assignee": "Will"
       }
     ],
     "done": [
+      {
+        "id": 11,
+        "title": "Berkeley email + PDF reviewed",
+        "description": "Received Feb 19 — full platform overview documented",
+        "completedDate": "2026-02-19"
+      },
       {
         "id": 7,
         "title": "Berkeley call",
@@ -89,30 +95,92 @@
       {
         "id": 9,
         "title": "One-pager content brief",
-        "description": "PDF with content + design notes emailed to both",
+        "description": "PDF with content + design notes emailed",
         "completedDate": "2026-02-18"
       }
     ]
   },
   "keyDiscoveries": [
     {
+      "date": "2026-02-19",
+      "source": "Berkeley PDF",
+      "finding": "500+ clients, 10M+ accounts, $4B+ disbursed since 2006",
+      "impact": "Proven at scale — strong trust signal"
+    },
+    {
+      "date": "2026-02-19",
+      "source": "Berkeley PDF",
+      "finding": "EQ Bank launched in 6 months (vs 18+ mo traditional), 35K cardholders month 1",
+      "impact": "Fast GTM timeline possible"
+    },
+    {
+      "date": "2026-02-19",
+      "source": "Berkeley PDF",
+      "finding": "Real-Time Guardrails API: merchant category blocking, instant lock/unlock",
+      "impact": "Exactly what Poodle needs for parental controls"
+    },
+    {
+      "date": "2026-02-19",
+      "source": "Berkeley PDF",
+      "finding": "Visa Direct for instant loads (pull/push to any Visa card)",
+      "impact": "Good for parent → kid transfers"
+    },
+    {
+      "date": "2026-02-19",
+      "source": "Berkeley PDF",
+      "finding": "Client funds held in bank-controlled omnibus accounts (not by Berkeley)",
+      "impact": "Strong fund safety model"
+    },
+    {
       "date": "2026-02-18",
-      "source": "Berkeley",
-      "finding": "Monthly fee for active cards (reloadable = bank account)",
+      "source": "Berkeley call",
+      "finding": "Monthly fee for active reloadable cards",
       "impact": "Could affect 'no subscription' positioning",
       "workaround": "Suspend inactive cards to avoid fee"
     },
     {
       "date": "2026-02-18",
-      "source": "Berkeley",
+      "source": "Berkeley call",
       "finding": "Virtual card under $1, physical slightly more",
       "impact": "Good unit economics"
     },
     {
       "date": "2026-02-18",
-      "source": "Berkeley",
-      "finding": "US bank partner is Sunrise Bank",
+      "source": "Berkeley call",
+      "finding": "US bank partner: Sunrise Bank",
       "impact": "Info only"
+    }
+  ],
+  "openQuestions": [
+    {
+      "question": "What's the actual monthly fee per active card?",
+      "status": "open",
+      "assignee": "Will"
+    },
+    {
+      "question": "Confirm suspend removes fee but allows reactivation?",
+      "status": "open",
+      "assignee": "Will"
+    },
+    {
+      "question": "Dormancy rules — how long before fees kick in?",
+      "status": "open",
+      "assignee": "Will"
+    },
+    {
+      "question": "Canadian youth program name for reference?",
+      "status": "open",
+      "assignee": "Will"
+    },
+    {
+      "question": "Chip+PIN vs mag stripe pricing delta?",
+      "status": "open",
+      "assignee": "Will"
+    },
+    {
+      "question": "Does Cliq have the same fee structure?",
+      "status": "open",
+      "assignee": "Will"
     }
   ],
   "waitlist": {
@@ -120,6 +188,10 @@
     "url": "https://poodlecard.com"
   },
   "keyDates": [
+    {
+      "date": "2026-02-19",
+      "event": "Berkeley follow-up email + PDF received and reviewed"
+    },
     {
       "date": "2026-02-18",
       "event": "Berkeley call completed"
