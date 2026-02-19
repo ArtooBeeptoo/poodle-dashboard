@@ -1,0 +1,132 @@
+{
+  "lastUpdated": "2026-02-18T19:45:00-06:00",
+  "partnerCalls": [
+    {
+      "partner": "Berkeley Payments",
+      "contact": "James Dawe",
+      "callDate": "2026-02-18",
+      "status": "complete",
+      "notes": "Awaiting more info. Need to clarify monthly fee structure.",
+      "nextAction": "Send one-pager + user flow doc"
+    },
+    {
+      "partner": "Cliq",
+      "contact": "Kenny Brook",
+      "callDate": "2026-02-17",
+      "status": "complete",
+      "notes": "Awaiting more info.",
+      "nextAction": "Send one-pager"
+    },
+    {
+      "partner": "Spidr",
+      "contact": "Ramy Serageldin",
+      "callDate": null,
+      "status": "pending",
+      "notes": "Need to schedule",
+      "nextAction": "Schedule call"
+    }
+  ],
+  "tasks": {
+    "todo": [
+      {
+        "id": 1,
+        "title": "Finalize one-pager design",
+        "description": "Get designer to create polished version from content brief",
+        "priority": "high",
+        "assignee": "Will"
+      },
+      {
+        "id": 2,
+        "title": "Draft user flow document",
+        "description": "Parent with 10-year-old scenario - James (Berkeley) requested",
+        "priority": "high",
+        "assignee": "Artoo"
+      },
+      {
+        "id": 3,
+        "title": "Clarify monthly fee structure",
+        "description": "Ask Berkeley & Cliq about per-card fees, suspension workarounds",
+        "priority": "high",
+        "assignee": "Will"
+      },
+      {
+        "id": 4,
+        "title": "Schedule Spidr call",
+        "description": "Ramy Serageldin - third BIN sponsor option",
+        "priority": "medium",
+        "assignee": "Will"
+      },
+      {
+        "id": 5,
+        "title": "Set up Poodle social accounts",
+        "description": "Instagram + Facebook for waitlist growth",
+        "priority": "low",
+        "assignee": "TBD"
+      }
+    ],
+    "inProgress": [
+      {
+        "id": 6,
+        "title": "Partner one-pager content",
+        "description": "Content brief created, sent to Will & Joe",
+        "priority": "high",
+        "assignee": "Artoo"
+      }
+    ],
+    "done": [
+      {
+        "id": 7,
+        "title": "Berkeley call",
+        "description": "Completed Feb 18",
+        "completedDate": "2026-02-18"
+      },
+      {
+        "id": 8,
+        "title": "Cliq call",
+        "description": "Completed Feb 17",
+        "completedDate": "2026-02-17"
+      },
+      {
+        "id": 9,
+        "title": "One-pager content brief",
+        "description": "PDF with content + design notes emailed to both",
+        "completedDate": "2026-02-18"
+      }
+    ]
+  },
+  "keyDiscoveries": [
+    {
+      "date": "2026-02-18",
+      "source": "Berkeley",
+      "finding": "Monthly fee for active cards (reloadable = bank account)",
+      "impact": "Could affect 'no subscription' positioning",
+      "workaround": "Suspend inactive cards to avoid fee"
+    },
+    {
+      "date": "2026-02-18",
+      "source": "Berkeley",
+      "finding": "Virtual card under $1, physical slightly more",
+      "impact": "Good unit economics"
+    },
+    {
+      "date": "2026-02-18",
+      "source": "Berkeley",
+      "finding": "US bank partner is Sunrise Bank",
+      "impact": "Info only"
+    }
+  ],
+  "waitlist": {
+    "count": null,
+    "url": "https://poodlecard.com"
+  },
+  "keyDates": [
+    {
+      "date": "2026-02-18",
+      "event": "Berkeley call completed"
+    },
+    {
+      "date": "2026-02-17",
+      "event": "Cliq call completed"
+    }
+  ]
+}
