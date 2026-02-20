@@ -20,10 +20,10 @@
     {
       "partner": "Spidr",
       "contact": "Ramy Serageldin",
-      "callDate": null,
-      "status": "pending",
-      "notes": "Need to schedule",
-      "nextAction": "Schedule call"
+      "callDate": "2026-02-24",
+      "status": "scheduled",
+      "notes": "Ramy responded Feb 19. Options: Mon 2/23 2-3p, Tue 2/24 1-3p, Wed 2/25 11-12.",
+      "nextAction": "Confirm Tue 2/24 1pm MT (pending Will)"
     }
   ],
   "tasks": {
