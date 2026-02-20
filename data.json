@@ -64,16 +64,14 @@
         "assignee": "TBD"
       }
     ],
-    "inProgress": [
+    "inProgress": [],
+    "done": [
       {
         "id": 1,
-        "title": "Finalize one-pager design",
-        "description": "Get designer to create polished version from content brief",
-        "priority": "high",
-        "assignee": "Will"
-      }
-    ],
-    "done": [
+        "title": "Partner one-pager",
+        "description": "Finalized and deployed to dev.poodlecard.com/partners",
+        "completedDate": "2026-02-19"
+      },
       {
         "id": 11,
         "title": "Berkeley email + PDF reviewed",
